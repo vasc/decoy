@@ -1,0 +1,21 @@
+{
+  "name": "decoy",
+  "version": "0.0.0",
+  "description": "Decoy is a mocking frameqork designed to get out of your way, it will try it's best to respond soundly to any request as fast as possible.",
+  "main": "decoy.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "Vasco Fernandes <vasco.box@gmail.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "when": "~2.7.1",
+    "lodash": "~2.4.1"
+  }
+}
