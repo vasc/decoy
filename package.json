@@ -1,7 +1,7 @@
 {
   "name": "decoy",
-  "version": "0.0.1",
-  "description": "Decoy is a mocking frameqork designed to get out of your way, it will try it's best to respond soundly to any request as fast as possible.",
+  "version": "0.0.2",
+  "description": "Decoy is a mocking framework designed to get out of your way.",
   "main": "lib/decoy.js",
   "repository" : {
     "type" : "git",
