@@ -34,4 +34,17 @@ describe('decoy', function(){
 			func().should.be.eql('argument');
 		});
 	});
+
+	describe('#control', function(){
+		var func = decoy.function('argument')
+
+		it('should return the right argument when called', function(){
+			func().should.be.eql('argument');
+		});
+
+		it('should return the right argument after for the right behavior', function(){
+			decoy.control(func).given(['arg1'], 'result');
+			func('arg1').should.be.eql('result');
+		});
+	});
 });

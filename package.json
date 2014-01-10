@@ -1,6 +1,6 @@
 {
   "name": "decoy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Decoy is a mocking framework designed to get out of your way.",
   "main": "lib/decoy.js",
   "repository" : {
